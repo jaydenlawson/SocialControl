@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Social Control",
+  "version": "0.0.1",
+  "description": "Taking back control of your social life",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.facebook.com/*"]
+  }]
+ 
+}
